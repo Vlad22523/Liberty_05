@@ -1,0 +1,173 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Montserrat", sans-serif;
+}
+
+.content {
+  width: 100%;
+  height: 100vh;
+  background-color: #e6e6fa;
+}
+
+/* .container {
+  width: 1350px;
+  margin: 0 auto;
+} */
+
+.photo-content {
+  border-radius: 50%;
+  box-shadow: 0 0 10px rgb(26 9 9 / 70%);
+}
+
+.photo {
+  padding-top: 50px;
+  display: flex;
+  justify-content: center;
+}
+
+.text {
+  padding-top: 15px;
+  font-size: 30px;
+  text-align: center;
+  color: rgb(0, 0, 0);
+  font-weight: 500;
+  color: black;
+}
+
+.btn {
+  background-color: #c3c3e0;
+  padding: 30px 250px;
+  border-radius: 20px;
+}
+.btn-1 {
+  background-color: #c3c3e0;
+  padding: 30px 244px;
+  border-radius: 20px;
+}
+.btn-2 {
+  background-color: #c3c3e0;
+  padding: 30px 265px;
+  border-radius: 20px;
+}
+.btn-3 {
+  background-color: #c3c3e0;
+  padding: 30px 253px;
+  border-radius: 20px;
+}
+
+.button {
+  margin-top: 15px;
+  text-align: center;
+  display: block;
+}
+
+.xx a {
+  text-decoration: none;
+  font-size: 20px;
+  color: black;
+  letter-spacing: 3px;
+  color: white;
+  transition: background-color 0.3s linear;
+}
+
+.xx {
+  margin-top: 70px;
+}
+
+.xx a:hover {
+  background-color: #ebebf9;
+  border: 2px solid rgb(131, 130, 130);
+  color: black;
+  box-shadow: 10px 5px 5px rgb(121, 120, 120);
+}
+
+@media (max-width: 928px) {
+  .xx a {
+    font-size: 15px;
+  }
+  .text {
+    font-size: 25px;
+  }
+
+  .photo-content {
+    width: 120px;
+  }
+
+  .btn {
+    padding: 25px 200px;
+  }
+  .btn-1 {
+    padding: 25px 195px;
+  }
+  .btn-2 {
+    padding: 25px 212px;
+  }
+  .btn-3 {
+    padding: 25px 203px;
+  }
+
+  .xx {
+    margin-top: 60px;
+  }
+}
+
+@media (max-width: 503px) {
+  .xx a {
+    font-size: 13px;
+  }
+  .text {
+    font-size: 22px;
+  }
+
+  .photo-content {
+    width: 110px;
+  }
+
+  .btn {
+    padding: 25px 148px;
+  }
+  .btn-1 {
+    padding: 25px 142px;
+  }
+  .btn-2 {
+    padding: 25px 159px;
+  }
+  .btn-3 {
+    padding: 25px 150px;
+  }
+
+  .xx {
+    margin-top: 60px;
+  }
+}
+
+@media (max-width: 428px) {
+  .xx a {
+    font-size: 13px;
+  }
+  .text {
+    font-size: 22px;
+  }
+
+  .photo-content {
+    width: 110px;
+  }
+
+  .btn {
+    padding: 25px 124px;
+  }
+  .btn-1 {
+    padding: 25px 119px;
+  }
+  .btn-2 {
+    padding: 25px 135px;
+  }
+  .btn-3 {
+    padding: 25px 126px;
+  }
+
+  .xx {
+    margin-top: 60px;
+  }
+}
